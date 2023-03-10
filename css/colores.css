@@ -1,0 +1,47 @@
+h1 {
+    text-align: center;
+}
+.box-direction {
+    display: flex;
+    flex-direction: row;
+}
+.box-style {
+    width: 300px;
+    height: 300px;
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:white;
+    font-size: 1.4em;
+    text-align: center;
+    font-family: tahoma, sans-serif;
+    font-weight: 900;
+}
+.box-darkcyan {
+    background-color: blue;
+}
+.box-goldenrod {
+    background-color: red;
+}
+.box-red {
+    background-color: aqua;
+}
+.box-5-8-11 {
+    background-color: rgb(5,8,11);
+}
+.box-144-202-3 {
+    background-color: rgb(144,202,3);
+}
+.box-120-80-165 {
+    background-color: rgb(120,80,165);
+}
+.box-E58C0C {
+    background-color:#E58C0C;
+}
+.box-81AAFC {
+    background-color: #81AAFC;
+}
+.box-F941DF {
+    background-color: #F941DF;
+}
