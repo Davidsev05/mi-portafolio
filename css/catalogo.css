@@ -113,3 +113,13 @@ img {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: .9em;
 }
+
+.star-style {
+    color: gold;
+    font-size: 1.6em;
+    background-color: transparent;
+}
+
+.star-style-empty {
+
+}
