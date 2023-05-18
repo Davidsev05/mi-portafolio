@@ -4,18 +4,37 @@
 }
 
 .main-nav {
+    background-color: rgb(118, 231, 246);
+    color: white;
+    height: 80px;
+    width: 100%;
+    
+}
+
+.main-nav-2 {
     background-color: rgb(64,64,64);
     color: white;
     height: 80px;
     width: 100%;
+    
 }
 .main-menu {
-    font-size: 1.3em;
-    font-family: 'Poppins',sans-serif;
-    font-weight: 700;
-    text-align: right;
-    list-style: none;
+    height: 100vh;
+        text-align: right;
+        font-size: 1.3em;
+        font-family: 'Poppins',sans-serif;
+        list-style: none;
+        font-weight: 700;
     
+}
+.main-menu-block {
+    height: 100vh;
+    background-color:rgb(42, 41, 41);
+    list-style: none;
+    text-align: center;
+    font-family:'Poppins',sans-serif;
+    font-size: 1.3em;
+    font-weight: 700;
 }
 .item-style {
     padding: 20px 30px 28px 30px;
@@ -36,7 +55,22 @@ a {
     .main-menu{
         height: 100vh;
         background-color: rgb(64,64,64);
+        list-style: none;
+        text-align:center;
+        position: fixed;
+        width: 100%;
+        left: -100%;
+        transition: left 400ms;
+    }
+    .main-menu-block {
+        list-style: none;
+        height: 100vh;
+        background-color: rgb(64,64,64);
         text-align: center;
+        position: fixed;
+        width: 100%;
+        left: 0;
+        transition: left 400ms;
     }
     .item-style {
         display: block;
@@ -46,7 +80,7 @@ a {
         display: inline-block;
         color: white;
         padding-top: 15px;
-        margin-left: 20px;
+        margin-left: 25px;
         font-size: 2em;
     }
     .menu-bar:hover {
