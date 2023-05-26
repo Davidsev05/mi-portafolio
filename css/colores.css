@@ -25,23 +25,8 @@ h1 {
     background-color: red;
 }
 .box-red {
-    background-color: aqua;
+    background-color: rgb(254, 195, 0);
 }
 .box-5-8-11 {
-    background-color: rgb(5,8,11);
-}
-.box-144-202-3 {
-    background-color: rgb(144,202,3);
-}
-.box-120-80-165 {
-    background-color: rgb(120,80,165);
-}
-.box-E58C0C {
-    background-color:#E58C0C;
-}
-.box-81AAFC {
-    background-color: #81AAFC;
-}
-.box-F941DF {
-    background-color: #F941DF;
+    background-color: rgb(8, 88, 167);
 }
