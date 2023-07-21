@@ -19,6 +19,7 @@
     gap: 15px;
     grid-template-columns: repeat(7, 1fr);
     grid-template-rows: repeat(8, 100px);
+    border-radius: 25px;
    }
    .box-celda {
     width: 100%;
@@ -31,6 +32,7 @@
     align-items: center;
     font-family: Verdana, sans-serif;
     font-size: 2em;
+    border-radius: 20px;
     
    }
    .box-1 {
