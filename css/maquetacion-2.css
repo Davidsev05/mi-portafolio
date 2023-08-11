@@ -114,3 +114,87 @@ a {
 a:hover {
   background-color: #272c51; 
 }
+ @media screen and (max-width:1500px) {
+    .main-menu {
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.445);
+        list-style: none;
+        text-align: center;
+        position: fixed;
+        width: 70%;
+        right: -70%;
+        transition: right 400ms;
+        border-radius: 10px 0px 0px 10px;
+     }
+     .main-menu-block {
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.445);
+        list-style: none;
+        text-align: center;
+        position: fixed;
+        width: 70%;
+        right: 0;
+        transition: right 400ms;
+        border-radius: 10px 0px 0px 10px;
+     }
+     .item-style {
+        text-align: right;
+        display: block;
+        border-radius: 0px 40px 40px 0px;
+        position: static;
+     }
+     .img-logo {
+        align-items: center;    
+     }
+     .menu-bar {
+        display: inline-block;
+        color: rgb(214, 43, 0);
+        text-align: right;
+        padding-bottom: 10px;
+        margin-right: 10px;
+        font-size: 2em;
+     }
+     .menu-bar:hover {
+        cursor: pointer;
+     }
+}
+    
+@media screen and (max-width:1390px) {
+    .main-contents {
+        display: grid;
+        grid-template: "img-principal img-principal img-principal  img-principal" auto
+            "empty-left  article-1   article-2  empty-right" 500px "empty-left  article-3   article-4  empty-right" 500px "empty-left  article-5   article-6    empty-right" 500px /
+            1fr 350px 350px 1fr;
+    }
+
+    .img-fondo-grande {
+        width: 100%;
+        height: 100%;
+    }
+
+    .img-principal {
+        height: 500px;
+    }
+}
+
+@media screen and (max-width:960px) {
+    .main-contents {
+        column-gap: 0;
+        display: grid;
+        grid-template: "img-principal img-principal img-principal " auto
+                        "empty-left   article-1     empty-right"    500px 
+                        "empty-left   article-2     empty-right"    500px 
+                        "empty-left   article-3     empty-right"     500px 
+                        "empty-left   article-4     empty-right"     500px 
+                        "empty-left   article-5     empty-right"     500px 
+                        "empty-left   article-6     empty-right"     500px /
+                         1fr          300px         1fr;
+    }
+    .article {
+        width: 100%;
+    }
+
+    .img-principal {
+        height: 100%;
+    }
+}
