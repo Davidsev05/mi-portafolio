@@ -26,6 +26,7 @@ header {
 .main-img{
     width: 100%;
     border-radius: 20px;
+    cursor: pointer;
 }
 .box-img-fixed {
     width:100%;
@@ -38,6 +39,10 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
+    display: flex;
+}
+.box-img-fixed-hidden {
+    display: none;
 }
 .main-img-fixed {
     width: 500px;
@@ -77,7 +82,26 @@ header {
     width: 500px;
     height: 500px;
 }
-
+.box-boton-cerrar {
+    position: relative;
+    color: white;
+    font-size: 2em;
+    font-weight: 400;
+    font-family: sans-serif;
+    top:-650px;
+    left: 470px;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    background-color: red;
+    border-radius: 50px;
+}
+.boton-cerrar {
+    cursor: pointer;
+}
 .box-thumbnail {
     grid-area: box-thumbnail;
     display: grid;
@@ -99,7 +123,23 @@ header {
 .thumb {
     width: 100%;
     border-radius: 30px;
-    padding: 15px;
+    cursor: pointer;
+    z-index: 10;
+    position: relative;
+}
+.thumb:hover {
+    opacity: 0.7;
+}
+.box-thumb {
+    margin: 15px;
+}
+.box-thumb:hover {
+    position: relative;
+    background-color: rgb(0,0,0,0.9);
+    z-index: 20;
+    height: 127px;
+    border-radius: 30px;
+
 }
 .box-info{
     grid-area: box-info;
