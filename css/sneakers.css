@@ -208,6 +208,21 @@ body{
 }
 .box-info{
     grid-area: box-info;
+    display: flex;
+    align-items: center;
+}
+.title-info-1 {
+    color: rgb(255,125,26);
+    font-size: .8em;
+}
+.title-info-2 {
+    font-size: 3em;
+}
+.texto-producto {
+    color: rgb(120,129,120);
+    line-height: 1.5em;
+    font-weight: 500;
+    margin-top: 40px;
 }
 /* Fonts */
 /* kanit-regular - latin */
